@@ -40,7 +40,7 @@ ul,ol,li{
 }
 a{ text-decoration: none; }
 a:link,a:visited{color: black;}
-a:hover,a:active{color:; }
+/* a:hover,a:active{color:; } */
 /* a:link,a:visited,a:hover,a:focus{ color:#444; } */
 
 .clear::after{
@@ -307,18 +307,18 @@ section .bus_area .busInfo{
     padding-top: 8px;
     padding-left: 130px;
 }
-.busInfo .info{
+.busInfo .bus_info{
     display: inline-block;
     margin-left: 349px;
     height: 30px;
 }
-.busInfo .info p{
+.busInfo .bus_info p{
     display: inline-block;
 }
 .bus_area .bus_route img, .bus_area .bus_time img{
     width: 1024px;
 }
-.bus_area .bus165 .info{
+.bus_area .bus165 .bus_info{
     margin-left: 320px;
 }
 section .busContent{
@@ -506,45 +506,64 @@ ul.ani_category li{
 
 
 .test{
-    width: 1200px;
-    height: 600px;
+    width: 1000px;
+    height: 550px;
     margin-top: 100px;
+    margin-left: 100px;
     z-index: 10;
     background-color: #d8d3d3;
     opacity: 0.92;
     position:absolute;
     border: 1px solid #8a8a8a;
 }
-.test div{
-    width: 33%;
+.test > div{
     float: left;
 }
 .test .imgBox{
-    width: 40%;
-    padding-left: 30px;
-    height: 100%;
+    width: 800px;
+    height: inherit;
 }
 .test .imgBox img{
-    width: 100%;
-    padding: 100px 0;
+    padding: 40px 0;
+    padding-left: 100px;
 }
-.test .info{
+.test .cancel{
+    width: 180px;
+    margin-top: 30px;
+}
+.test .cancel a img{
+    width: 80px;
+    height: 80px;
+    padding-left: 80px;
+}
+/* .test .info{
     margin: 50px;
     margin-left: 12px;
     height: 500px;
     border: 1px solid red;
 }
-.test .cancel{
-    width: 10%;
+.info .info_list{
+    padding: 140px 0;
 }
-.test .cancel a img{
-    padding-left: 120px;
-    padding-top: 30px;
-    width: 80px;
-    height: 80px;
+.icon_animal01:before {
+    content: "\e901";
+    color: #904cce;
 }
-
-
+.icon_animal02:before {
+    content: "\e902";
+    color: #904cce;
+}
+.icon_animal03:before {
+    content: "\e903";
+    color: #904cce;
+}
+.icon_animal04:before {
+    content: "\e904";
+    color: #904cce;
+}
+.info_list dl dt, .info_list dl dd{
+    display: inline-block;
+} */
 .page_area {
     margin: 1.5em 0 3em;
 }
