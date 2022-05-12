@@ -24,6 +24,10 @@ function showInfo6(){
     console.log("ok");
     Infomation[5].style.display = "block";
 }
+function showInfo7(){
+    console.log("ok");
+    Infomation[6].style.display = "block";
+}
 
 function closeInfo(){
     console.log("ok")

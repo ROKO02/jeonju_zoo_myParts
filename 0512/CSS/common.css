@@ -523,6 +523,11 @@ ul.ani_category li{
     margin: 0;
     height: inherit;
 }
+.aniInfo_list > li .imgBox > p{
+    font-size: 60px;
+    text-align: center;
+    padding: 255px 0;
+}
 .aniInfo_list > li .imgBox img{
     width: 600px;
     padding: 40px;
@@ -544,6 +549,7 @@ ul.ani_category li{
 .aniInfo_list .aniInfo4{ display: none; }
 .aniInfo_list .aniInfo5{ display: none; }
 .aniInfo_list .aniInfo6{ display: none; }
+.aniInfo_list .aniInfo7{ display: none; }
 
 /* .aniInfo_list .info{
     margin: 50px;
