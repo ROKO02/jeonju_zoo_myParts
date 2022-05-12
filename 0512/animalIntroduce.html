@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전주동물원 > 동물원 소개 > 동물가족소개</title>
+    <link rel="icon" href="./images/ico_jeonju_zoo.png">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <!-- wrap 시작 -->
+    <div id="wrap">
+        <!-- header 시작 -->
+        <header>
+            <div class="header_area box_inner clear">
+                <h1><a href="./index.html">Tourist in Tour</a></h1>
+                <div class="header_cont">
+                    <ul class="util clear">
+                        <li><a href="https://www.jeonju.go.kr/index.9is?contentUid=9be517a74fa674f8014faad5c63302bd&returnUrl=http%3A%2F%2Fdevzoo.jeonju.go.kr%2Fplanweb%2Fboard%2Fwrite.9is%3Fpage%3D1%26boardUid%3D9be517a8725f7e720172724edb2671f6%26contentUid%3D9be517a8725f7e720172724fa4a17222%26layoutUid%3D%26searchType%3D%26keyword%3D%26categoryUid1%3D%26categoryUid2%3D%26cateogryUid3%3D">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                    <nav>
+                        <ul class="gnb clear">
+                            <li>
+                                <a href="#" class="openAll1">동물원 소개</a>
+                                <div class="gnb_depth gnb_depth2_1">
+                                    <ul class="submenu_list">
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">오시는 길</a></li>
+                                        <li><a href="#">동물가족 소개</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="openAll2">이용정보</a>
+                                <div class="gnb_depth gnb_depth2_2">
+                                    <ul class="submenu_list">
+                                        <li><a href="#">이용안내</a></li>
+                                        <li><a href="#">전시안내</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="openAll3">e-tiket 구매</a>
+                                <div class="gnb_depth gnb_depth2_3">
+                                    <ul class="submenu_list">
+                                        <li><a href="#">구매하기</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="openAll4">동물원 소식</a>
+                                <div class="gnb_depth gnb_depth2_4">
+                                    <ul class="submenu_list">
+                                        <li><a href="#">공지사항</a></li>
+                                        <li><a href="#">동물원 일상</a></li>
+                                        <li><a href="#">자원봉사 신청</a></li>
+                                        <li><a href="#">묻고 답하기</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- header 끝 -->
+        <!-- container 시작 -->
+        <div id="container">
+            <div class="animalIntTitle">
+                <h1 class="title">동물원 소개</h1>
+                <ul class="label">
+                    <li><a href="#"><img src="./images/icon_home.svg" alt=""></a></li>
+                    <li>동물원 소개</li>
+                    <li>동물가족소개</li>
+                </ul>
+            </div>
+            <h1 class="aniTitle">
+                동물가족소개
+            </h1>
+            <div class="type_select">
+                <ul class="type">
+                    <li><a href="#">포유류</a></li>
+                    <li><a href="#">조류</a></li>
+                    <li><a href="#">파충류</a></li>
+                    <li><a href="#">어류</a></li>
+                </ul>
+            </div>
+            <div class="animal_board">
+                <div class="search_area">
+                    <fieldset>
+                        <select name="searchOption" id="searchOption" title="검색옵션" class="category">
+                            <option value="">선택</option>
+                            <option value="dataTitle">동물이름</option>
+                            <option value="tmpField5">보금자리</option>
+                        </select>
+                        <input name="searchKeyword" id="searchKeyword" title="검색단어" class="search_txt" placeholder="검색어를 입력하세요." value="">
+                        <button type="submit" title="검색" class="search_btn">검색</button>
+                    </fieldset>
+                </div>
+                <div class="list_area">
+                    <ul class="list after">
+                        <li>
+                            <div class="img_area">
+                                <div class="ani_category icon">
+                                    <span class="cate01">천연</span>
+                                    <span class="cate02">I</span>
+                                    <span class="cate03">I</span>
+                                </div>
+                                <img src="./images/animals/650c7594-47a4-45e9-846f-173f53abc3d6.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>수달</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_area">
+                                <div class="ani_category icon">
+                                </div>
+                                <img src="./images/animals/8b2bbb34-18cc-4989-ab2d-7bd5145147d4.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>흑염소</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- aniInfo2 -->
+                            <div class="img_area" onclick="showInfo2();">
+                                <div class="ani_category icon">
+                                    <span class="cate02">I</span>
+                                    <span class="cate03">II</span>
+                                </div>
+                                <img src="./images/animals/c68a6b28-a52c-4b4c-909e-55e90b20fe4e.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>표범</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_area">
+                                <div class="ani_category icon">
+                                </div>
+                                <img src="./images/animals/cd92119c-0334-4d41-a2a0-0ea2293e6562.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>토끼</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_area">
+                                <div class="ani_category icon">
+                                </div>
+                                <img src="./images/animals/88bd39dc-4f17-49af-bfab-5222a352d3c4.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>줄무늬몽구스</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- aniInfo2 -->
+                            <div class="img_area" onclick="showInfo2();">
+                                <div class="ani_category icon">
+                                    <span class="cate03">II</span>
+                                </div>
+                                <img src="./images/animals/f28a5cb3-1f41-4865-8978-a384b356ea4a.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>재규어</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- aniInfo4 -->
+                            <div class="img_area" onclick="showInfo4();">
+                                <div class="ani_category icon">
+                                </div>
+                                <img src="./images/animals/ea3f1322-dec5-4726-96fb-bd6c1f6da08d.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>엘크</h4>
+                                <p>초식동물의 숲</p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- aniInfo2 -->
+                            <div class="img_area" onclick="showInfo2();">
+                                <div class="ani_category icon">
+                                    <span class="cate03">II</span>
+                                </div>
+                                <img src="./images/animals/4834eef0-ffc2-4c67-afa1-db61951aaee3.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>에조불곰</h4>
+                                <p>맹수의 숲</p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- aniInfo6 -->
+                            <div class="img_area" onclick="showInfo6();">
+                                <div class="ani_category icon">
+                                </div>
+                                <img src="./images/animals/98904253-52cc-4b0d-a5e5-53f510b9f9f9.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>아메리카 들소</h4>
+                                <p>초원의 숲</p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- aniInfo2 -->
+                            <div class="img_area" onclick="showInfo2();">
+                                <div class="ani_category icon">
+                                    <span class="cate02">I</span>
+                                    <span class="cate03">II</span>
+                                </div>
+                                <img src="./images/animals/d9d74a0f-6f75-4102-8a6b-479c800f7b90.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>스라소니</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img_area">
+                                <div class="ani_category icon">
+                                    <span class="cate03">II</span>
+                                </div>
+                                <img src="./images/animals/db8a4dc1-84d2-4560-866c-035d88e95740.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>사막여우</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- aniInfo4 -->
+                            <div class="img_area" onclick="showInfo4();">
+                                <div class="ani_category icon">
+                                    <span class="cate02">II</span>
+                                </div>
+                                <img src="./images/animals/img_none.jpg">
+                            </div>
+                            <div class="txt_area">
+                                <h4>바바리양</h4>
+                                <p></p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="aniInfo_list">
+                        <!-- <a href="https://www.flaticon.com/kr/free-icons/" title="닫기 아이콘">닫기 아이콘  제작자: Freepik - Flaticon</a> 
+                        aniInfo 이미지 속 동물들 위치 표시 아이콘 -->
+                        <li class="aniInfo aniInfo1">
+                            <div class="imgBox">
+                                <img src="./images/animal_live_place1.png">
+                            </div>
+                            <div class="cancel">
+                                <div onclick="closeInfo();">
+                                    <img src="./images/icon_cancel.png">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aniInfo aniInfo2">
+                            <div class="imgBox">
+                                <img src="./images/animal_live_place2.png">
+                            </div>
+                            <div class="cancel">
+                                <div onclick="closeInfo();">
+                                    <img src="./images/icon_cancel.png">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aniInfo aniInfo3">
+                            <div class="imgBox">
+                                <img src="./images/animal_live_place3.png">
+                            </div>
+                            <div class="cancel">
+                                <div onclick="closeInfo();">
+                                    <img src="./images/icon_cancel.png">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aniInfo aniInfo4">
+                            <div class="imgBox">
+                                <img src="./images/animal_live_place4.png">
+                            </div>
+                            <div class="cancel">
+                                <div onclick="closeInfo();">
+                                    <img src="./images/icon_cancel.png">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aniInfo aniInfo5">
+                            <div class="imgBox">
+                                <img src="./images/animal_live_place5.png">
+                            </div>
+                            <div class="cancel">
+                                <div onclick="closeInfo();">
+                                    <img src="./images/icon_cancel.png">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aniInfo aniInfo6">
+                            <div class="imgBox">
+                                <img src="./images/animal_live_place6.png">
+                            </div>
+                            <div class="cancel">
+                                <div onclick="closeInfo();">
+                                    <img src="./images/icon_cancel.png">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="page_area">
+                    <ul class="page_list">
+                        <li class="select">
+                            <a href="#">
+                                <span class="page">1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="page">2</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="page">3</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="page">4</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="ani_category">
+                    <li data-search-option="tmpField6" data-search-keyword="1">
+                        <span class="cate01">천연</span> 천연기념물
+                    </li>
+                    <li data-search-option="tmpField8" data-search-keyword="1">
+                        <span class="cate02">I</span> 멸종위기야생동물 1급
+                    </li>
+                    <li data-search-option="tmpField8" data-search-keyword="2">
+                        <span class="cate02">II</span> 멸종위기야생동물 2급
+                    </li>
+                    <li data-search-option="tmpField9" data-search-keyword="1">
+                        <span class="cate03">I</span> CITES I
+                    </li>
+                    <li data-search-option="tmpField9" data-search-keyword="2">
+                        <span class="cate03">II</span> CITES II
+                    </li>
+                    <li data-search-option="tmpField9" data-search-keyword="3">
+                        <span class="cate03">III</span> CITES III
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- container 끝 -->
+        <!-- footer 시작 -->
+        <footer>
+            <div class="foot_area box_inner">
+                <ul class="foot_list clear">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">묻고답하기</a></li>
+                    <li><a href="#">자원봉사신청</a></li>
+                </ul>
+                <div class="foot_info">
+                    <p class="addr">
+                        위치 : 전북 전주시 덕진구 소리로 68 전주동물원(덕진동 1가 73-48)
+                        <span class="gubun">/</span>
+                        <span class="br_line">
+                            대표전화
+                            <span class="space0">063-281-6759</span>
+                            <span class="gubun">/</span>
+                        </span>
+                        <span class="br_line">
+                            Email : <span class="space0">titour@touristintour.com</span>
+                        </span>
+                    </p>
+                    <p class="copy box_inner">
+                        Copyright&copy;  2022 전주동물원. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer 끝 -->
+    </div>
+    <!-- wrap 끝 -->
+    <script src="./JS/InfoEvent.js"></script>
+</body>
+</html>
+<!-- <div class="info">
+                                <div class="info_list">
+                                    <dl>
+                                        <dt>
+                                            <span class="icon_animal01"></span> 대분류
+                                        </dt>
+                                        <dd>포유류</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span class="icon_animal01"></span> 소분류
+                                        </dt>
+                                        <dd>식육목 족제비과</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span class="icon_animal02"></span> 학명/영명
+                                        </dt>
+                                        <dd>
+                                            Lutra lutra / European otter
+        
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>
+                                            <span class="icon_animal03"></span> 분포
+                                        </dt>
+                                        <dd>
+                                            유럽, 북아프리카, 아시아
+        
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><span class="icon_animal04"></span> 먹는것</dt>
+                                        <dd>
+                                            육식성(물고기, 오리, 개구리, 가재, 쥐, 뱀)
+        
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div> -->
