@@ -288,6 +288,9 @@ details .show_history{
 .carPark .imgBox .parkImg{
     text-align: center;
 }
+.carPark .imgBox .parkImg > img{
+    width: 1024px;
+}
 .carPark li{
     margin-top: 14px;
     margin-left: 140px;
@@ -295,6 +298,9 @@ details .show_history{
 .carPark .carParkCost{
     margin-top: 14px;
     text-align: center;
+}
+.carPark .carParkCost > img{
+    width: 1024px;
 }
 section{
     width: 1024px;
@@ -726,6 +732,9 @@ footer{
 /*  반응형 */
 /* 테블릿 반응형 */
 @media screen and (max-width:800px){
+    #wrap{
+        width: 800px;
+    }
     .box_inner{ width:100%; }
     header{
         height:90px;
@@ -840,6 +849,61 @@ footer{
 
     #container{ position: relative; width:100%; padding-bottom: 30px; }
 
+    /* AboutUs.html */
+    .introduce_card .textBox{
+        padding: 300px;
+    }
+    .introduce_card .textBox .title{
+        line-height: 48px;
+    }
+    /* AboutUs.html */
+    /* mapRoute.html */
+    #container .mapBox, #container section{
+        width: 800px;
+    }
+    .mapBox .titleBox{
+        margin: 0 0 20px 0;
+    }
+    .map_area .map, .mapContent{
+        width: 798px;
+    } 
+    .carPark .imgBox .parkImg > img{
+        width: 800px;
+    }
+    .carPark .carParkCost > img {
+        width: 800px;
+    }
+    .carPark li {
+        margin-top: 14px;
+        margin-left: 40px;
+    }
+    #container section div{
+        width: 800px;
+    }
+    .bus_area .bus_route img, .bus_area .bus_time img {
+        width: 800px;
+    }
+    /* mapRoute.html */
+    /* animalIintroduce.html */
+    .type_select .type li{
+        width: 23%;
+    }
+    .type_select .type .t1{
+        margin-left: 32px;
+    }
+    .animal_board .icon{
+        left: 0.7em;
+    }
+    .ani_category span {
+        width: 2.0em;
+        height: 2.0em;
+        line-height: 2.0em;
+    }
+    ul.ani_category li{
+        margin: 0;
+    }
+    /* animalIintroduce.html */
+    
     footer .foot_area{
         box-sizing: border-box; padding:0 20px 120px;
     }
